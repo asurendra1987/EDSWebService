@@ -1,0 +1,20 @@
+PODS:
+  - AASquaresLoading (1.0.0)
+  - Alamofire (4.6.0)
+
+DEPENDENCIES:
+  - AASquaresLoading (~> 1.0)
+  - Alamofire
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AASquaresLoading
+    - Alamofire
+
+SPEC CHECKSUMS:
+  AASquaresLoading: 4039c25b61835d6f7c73d2d3382d6960a6039fa5
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+
+PODFILE CHECKSUM: 77015be36762c18334ca21d8894c83c7118a891d
+
+COCOAPODS: 1.5.2
