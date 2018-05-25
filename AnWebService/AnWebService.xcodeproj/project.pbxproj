@@ -16,6 +16,8 @@
 		88B8988020B835830075FA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B8987E20B835830075FA7E /* LaunchScreen.storyboard */; };
 		88B8988B20B835830075FA7E /* AnWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B8988A20B835830075FA7E /* AnWebServiceTests.swift */; };
 		88B8989620B835840075FA7E /* AnWebServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B8989520B835840075FA7E /* AnWebServiceUITests.swift */; };
+		88B898A420B83B5C0075FA7E /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B898A320B83B5C0075FA7E /* WebServiceManager.swift */; };
+		88B898A620B83C8B0075FA7E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B898A520B83C8B0075FA7E /* Helper.swift */; };
 		AA9705F142B7B9903D953136 /* Pods_AnWebServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27431F44A966C8E5775B33B8 /* Pods_AnWebServiceTests.framework */; };
 		E2CFA9147B861066906D75DA /* Pods_AnWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B92EC1D6DB9C9961765689 /* Pods_AnWebService.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		88B8989120B835840075FA7E /* AnWebServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnWebServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B8989520B835840075FA7E /* AnWebServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnWebServiceUITests.swift; sourceTree = "<group>"; };
 		88B8989720B835840075FA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B898A320B83B5C0075FA7E /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		88B898A520B83C8B0075FA7E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		A04D22FDDF7F5D3F6EC0FA10 /* Pods-AnWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnWebService.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnWebService/Pods-AnWebService.release.xcconfig"; sourceTree = "<group>"; };
 		C966FBC528CF1D41E20FCF32 /* Pods-AnWebServiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnWebServiceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnWebServiceUITests/Pods-AnWebServiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1F71D7BF23B1BF6296E31D7 /* Pods_AnWebServiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnWebServiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				88B8987220B835820075FA7E /* AppDelegate.swift */,
+				88B898A320B83B5C0075FA7E /* WebServiceManager.swift */,
+				88B898A520B83C8B0075FA7E /* Helper.swift */,
 				88B8987420B835820075FA7E /* ViewController.swift */,
 				88B8987620B835820075FA7E /* Main.storyboard */,
 				88B8987C20B835830075FA7E /* Assets.xcassets */,
@@ -380,7 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B898A420B83B5C0075FA7E /* WebServiceManager.swift in Sources */,
 				88B8987B20B835820075FA7E /* AnWebService.xcdatamodeld in Sources */,
+				88B898A620B83C8B0075FA7E /* Helper.swift in Sources */,
 				88B8987520B835820075FA7E /* ViewController.swift in Sources */,
 				88B8987320B835820075FA7E /* AppDelegate.swift in Sources */,
 			);

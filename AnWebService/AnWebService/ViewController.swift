@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+import Alamofire
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sampleGetApiCall()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,7 +21,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    // MARK : S
+    func sampleGetApiCall()
+    {
+        let urlStr = "https://rss.itunes.apple.com/api/v1/us/apple-music/hot-tracks/all/10/explicit.json"
+        Alamofire.request(urlStr, method: .get, encoding: JSONEncoding.default)
+            .responseJSON { response in
+                print(response.result.value as Any)
+        }
+    }
 
 }
+
+
 
