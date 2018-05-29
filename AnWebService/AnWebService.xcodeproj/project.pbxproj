@@ -130,10 +130,9 @@
 		88B8987120B835820075FA7E /* AnWebService */ = {
 			isa = PBXGroup;
 			children = (
-				88B8987220B835820075FA7E /* AppDelegate.swift */,
-				88B898A320B83B5C0075FA7E /* WebServiceManager.swift */,
-				88B898A520B83C8B0075FA7E /* Helper.swift */,
-				88B8987420B835820075FA7E /* ViewController.swift */,
+				88B898AD20BD19450075FA7E /* AppDelegate */,
+				88B898AF20BD19720075FA7E /* WebServiceManager */,
+				88B898AE20BD19610075FA7E /* Controller */,
 				88B8987620B835820075FA7E /* Main.storyboard */,
 				88B8987C20B835830075FA7E /* Assets.xcassets */,
 				88B8987E20B835830075FA7E /* LaunchScreen.storyboard */,
@@ -159,6 +158,31 @@
 				88B8989720B835840075FA7E /* Info.plist */,
 			);
 			path = AnWebServiceUITests;
+			sourceTree = "<group>";
+		};
+		88B898AD20BD19450075FA7E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				88B8987220B835820075FA7E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		88B898AE20BD19610075FA7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88B8987420B835820075FA7E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88B898AF20BD19720075FA7E /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				88B898A320B83B5C0075FA7E /* WebServiceManager.swift */,
+				88B898A520B83C8B0075FA7E /* Helper.swift */,
+			);
+			path = WebServiceManager;
 			sourceTree = "<group>";
 		};
 		9C16556BD95C1FFEB724D57D /* Pods */ = {
@@ -570,7 +594,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PayPal.AnWebService;
+				PRODUCT_BUNDLE_IDENTIFIER = Surendra.AnWebService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,7 +612,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PayPal.AnWebService;
+				PRODUCT_BUNDLE_IDENTIFIER = Surendra.AnWebService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
